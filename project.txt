@@ -1,0 +1,18 @@
+notification setting 
+-- messg , event , socety offer boolen all  studentId ref student
+create, edit , getbyId - studentId
+
+notification -
+studentId-ref, type enum [ messg , event , socety offer],senderId ref to student ,
+ message  content- string, message url -string event id , societyid offerid eventUrl ,  societyUrl ,offerUrl
+ isread boolen, createdat,  
+ // if type == message, student id senderid messagecontent  message url - not null 
+
+ //if type == event studentId event id event url 
+
+ // same as of soceity , offer 
+
+// getbyId -studentId
+
+//delete - id - notification id
+// delete -studentId 
